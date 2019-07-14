@@ -1,0 +1,285 @@
+/** POR ENQUANTO O SITE VAI SER VOLTADO APENAS PARA DESKTOP, ENTÃO NÃO SE ENCONTRAÁ RESPONSIVO*/ 
+
+*{margin: 0%; padding: 0%;}
+
+body{
+    background-size:cover;
+    background-color:rgb(221, 221, 223);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img{
+height:80px;
+align-self: center;
+}
+
+
+
+#body{
+    background-image: url(../images/fundoLogin.jpg);
+    background-size:cover;
+    background-color:black;
+}
+
+.interna{
+    background-color:rgba(0, 0, 0, 0.582);
+    position: absolute;
+    height: 30%;
+    width: 25%;
+    border-radius:2%;
+    display: table;
+    text-align: center;
+    justify-content: center;
+}
+
+.externa{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.452);
+}
+
+
+.textbox{
+    width:80%;
+    overflow: hidden;
+    border-bottom: 3px solid white;
+    margin-left: 10%;
+}
+
+.textbox input{
+    color: white;
+    text-align: center;
+    width: 80%;
+    border: none;
+    background:none;
+    outline: none;
+}
+
+
+
+label{
+    color: #E6E6E6;
+}
+
+.interna button{
+    width:80%;
+    background: #00ff40;
+    border: 2px solid;
+    color:rgb(0, 0, 0);
+    font-size:150%;
+    border-radius:1.3rem;
+    transition: 0.5s;
+    outline-style:none;
+}
+
+.interna button:hover{
+    width:90%;
+    height: 15%;
+    background-color:rgb(0, 153, 255);
+    color:white;
+    transition: 0.5s;
+    outline-style:none;
+}
+
+
+
+.menu{
+    text-align: center;
+    background-color: #293132;
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+.nava ul li { display: inline;  } 
+
+h1{
+    color:white;
+}
+
+
+.nava{
+    color:#FFFFFF;
+    background-color:#070707;
+    width: 100%;
+    position: absolute;
+    text-align: right;
+    height: 10%;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+
+.menuz{ /*configura o menu em si*/
+    list-style:none; 
+    border:none; 
+    float:right; 
+    }
+
+.menuz li{
+    position:relative; 
+    float: right; 
+    border:none; 
+    }
+
+.menuz li a{color:rgb(10, 7, 7); text-decoration:none; padding:5px 10px; display:block;}
+ 
+.menuz li a:hover{
+background:rgb(0, 0, 0); 
+color:#fff; 
+-webkit-box-shadow:0 3px 10px 0 white; 
+text-shadow:0px 0px 5px #fff; 
+}
+
+.form-inline{
+align-self:center;
+}
+
+.menuz li  ul{
+    position:absolute; 
+    top:100%; 
+    left:-25%;
+    background-color:#fff; 
+    display:none;
+    }   
+
+ .menuz li:hover ul, .menu li.over ul{display:block;}
+
+.menuz li ul li{
+        border:none; 
+        display:block; 
+        width:120px;
+        }
+        
+
+.bug{
+    margin-top:20px;
+    margin-right:60px;
+    height:20px;
+    position: relative;
+}
+
+.bug:hover{ 
+    margin-top:20px;
+    margin-right:60px;
+    height:20px;
+    position: relative;
+}
+
+.lupa{
+    height: 30px;
+    margin-left: 5px;
+}
+
+.lupa:hover{
+    height: 32px;
+    margin-left: 5px;
+}
+
+#form button{
+    background: none;
+    border:none;
+}
+
+
+#bem{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#sobre{
+    text-align: center;
+    background-color:white;
+    position: absolute;
+    margin-left:25%;
+    margin-right:25%;
+    box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.200);
+    margin-top:25px;
+}
+
+ .slider {
+         display: block;
+         height: 200px;
+         width: 200px;
+         margin: auto;
+         margin-top: 20px;
+         position: relative;
+     }
+    
+     .slider li {
+         list-style: none;
+         position: absolute;
+     }
+    
+     .slider img {
+     margin: auto;
+         height: 100%;
+         width: 100%;
+        vertical-align: top;
+     } 
+
+     .slider input {
+        display: none;
+    }
+
+     .slider label {
+            background-color: #000;
+             bottom: 10px;
+            cursor: pointer;
+             display: block;
+            height: 10px;
+             position: absolute;
+             width: 10px;
+             z-index: 10;
+     }
+        
+     .slider li:nth-child(1) label {
+        left: 10px;
+    }
+   
+    .slider li:nth-child(2) label {
+       left: 40px;
+    }
+   
+
+     .slider img {
+            opacity: 0;
+            visibility: hidden;
+        }
+       
+        .slider li input:checked ~ img {
+            opacity: 1;
+            visibility: visible;
+            z-index: 10;
+        } 
+
+a{
+    color: red;
+    position: relative;
+    height: 50%;
+    width:50%;
+}
+
+b{
+    position: absolute;
+    color:black;
+    width:50%;
+    height:50%;
+}
+
+/** display: table */
+
+/**
+PALETA DE CORES
+
+#E6E6E6
+#696D7D
+#293132
+
+

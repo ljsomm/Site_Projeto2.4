@@ -1,0 +1,45 @@
+#cabe{
+    background-color:rgb(255, 255, 255);
+    position: relative;
+    width: 100%;
+    text-align: center;
+    display: table;
+    margin-top:25px;
+   justify-content: center;
+   align-items: center;
+}
+
+.tela{
+    display: inline;
+}
+
+
+.corpo-igual{
+    background-color:white;
+    margin-right:965px;
+    position: absolute;
+    margin-left:2%;
+    box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.200);
+  
+}
+
+
+.corpo-igual-direita{
+    background-color:white;
+    margin-left:965px;
+    margin-right:2%;
+    box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.200);
+  
+}
+
+.corpo-igual h2{
+    text-align: center;
+    font-family: Arial;
+}
+
+.corpo-igual-direita h2{
+    text-align: center;
+    font-family: Arial;
+}
+
+
